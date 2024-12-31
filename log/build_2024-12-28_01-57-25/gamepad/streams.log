@@ -1,0 +1,30 @@
+[0.012s] Invoking command in '/home/tatenami/ros2/ws/pad/build/gamepad': CMAKE_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg:/home/tatenami/ros2/ws/pad/install/gamepad:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --build /home/tatenami/ros2/ws/pad/build/gamepad -- -j4 -l4
+[0.052s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/padsub.cpp.o[0m
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/padpub.cpp.o[0m
+[5.756s] [ 75%] [32m[1mLinking CXX executable publisher[0m
+[5.964s] [ 75%] Built target publisher
+[8.905s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[9.185s] [100%] Built target subscriber
+[9.189s] Invoked command in '/home/tatenami/ros2/ws/pad/build/gamepad' returned '0': CMAKE_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg:/home/tatenami/ros2/ws/pad/install/gamepad:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --build /home/tatenami/ros2/ws/pad/build/gamepad -- -j4 -l4
+[9.190s] Invoking command in '/home/tatenami/ros2/ws/pad/build/gamepad': CMAKE_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg:/home/tatenami/ros2/ws/pad/install/gamepad:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --install /home/tatenami/ros2/ws/pad/build/gamepad
+[9.193s] -- Install configuration: ""
+[9.193s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/ament_index/resource_index/package_run_dependencies/gamepad
+[9.193s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/ament_index/resource_index/parent_prefix_path/gamepad
+[9.193s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/environment/ament_prefix_path.sh
+[9.193s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/environment/ament_prefix_path.dsv
+[9.193s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/environment/path.sh
+[9.193s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/environment/path.dsv
+[9.193s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/local_setup.bash
+[9.193s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/local_setup.sh
+[9.194s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/local_setup.zsh
+[9.194s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/local_setup.dsv
+[9.194s] -- Installing: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/package.dsv
+[9.194s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/ament_index/resource_index/packages/gamepad
+[9.194s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/cmake/gamepadConfig.cmake
+[9.194s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/cmake/gamepadConfig-version.cmake
+[9.194s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/package.xml
+[9.194s] -- Installing: /home/tatenami/ros2/ws/pad/install/gamepad/lib/gamepad/publisher
+[9.195s] -- Set non-toolchain portion of runtime path of "/home/tatenami/ros2/ws/pad/install/gamepad/lib/gamepad/publisher" to ""
+[9.195s] -- Installing: /home/tatenami/ros2/ws/pad/install/gamepad/lib/gamepad/subscriber
+[9.201s] -- Set non-toolchain portion of runtime path of "/home/tatenami/ros2/ws/pad/install/gamepad/lib/gamepad/subscriber" to ""
+[9.203s] Invoked command in '/home/tatenami/ros2/ws/pad/build/gamepad' returned '0': CMAKE_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg:/home/tatenami/ros2/ws/pad/install/gamepad:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --install /home/tatenami/ros2/ws/pad/build/gamepad

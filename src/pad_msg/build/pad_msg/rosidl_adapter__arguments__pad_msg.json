@@ -1,0 +1,6 @@
+{
+  "package_name": "pad_msg",
+  "non_idl_tuples": [
+    "/home/tatenami/ros2/ws/pad/src/pad_msg:msg/Pad.msg"
+  ]
+}

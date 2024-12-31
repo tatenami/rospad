@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pad_msg/msg/Pad.msg
+// generated code does not contain a copyright notice
+
+
+module pad_msg {
+  module msg {
+    struct Pad {
+      sequence<boolean> buttons;
+
+      sequence<float> axes;
+    };
+  };
+};

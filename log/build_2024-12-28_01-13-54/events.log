@@ -1,0 +1,310 @@
+[0.000000] (-) TimerEvent: {}
+[0.000209] (pad_msg) JobQueued: {'identifier': 'pad_msg', 'dependencies': OrderedDict()}
+[0.000339] (gamepad) JobQueued: {'identifier': 'gamepad', 'dependencies': OrderedDict({'pad_msg': '/home/tatenami/ros2/ws/pad/install/pad_msg'})}
+[0.000590] (pad_msg) JobStarted: {'identifier': 'pad_msg'}
+[0.010017] (pad_msg) JobProgress: {'identifier': 'pad_msg', 'progress': 'cmake'}
+[0.010681] (pad_msg) JobProgress: {'identifier': 'pad_msg', 'progress': 'build'}
+[0.011270] (pad_msg) Command: {'cmd': ['/opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake', '--build', '/home/tatenami/ros2/ws/pad/build/pad_msg', '--', '-j4', '-l4'], 'cwd': '/home/tatenami/ros2/ws/pad/build/pad_msg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tatenami', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'STM32CubeMX_PATH': '/home/tatenami/STM32CubeMX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tatenami', 'OLDPWD': '/home/tatenami/ros2/ws/pad/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '2259', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tatenami', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tatenami', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/tatenami/.cargo/bin:/home/tatenami/.local/bin:/opt/st/stm32cubeclt_1.16.0:/opt/st/stm32cubeclt_1.16.0/STM32CubeProgrammer/bin:/opt/st/stm32cubeclt_1.16.0/STLink-gdb-server/bin:/opt/st/stm32cubeclt_1.16.0/CMake/bin:/opt/st/stm32cubeclt_1.16.0/Ninja/bin:/opt/st/stm32cubeclt_1.16.0/GNU-tools-for-STM32/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tatenami-sub:@/tmp/.ICE-unix/2027,unix/tatenami-sub:/tmp/.ICE-unix/2027', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a8d65584_a45d_4cc7_ac5d_4c04bf760502', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z0V2Y2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tatenami/ros2/ws/pad/build/pad_msg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.031205] (pad_msg) StdoutLine: {'line': b'[  2%] Built target pad_msg__rosidl_generator_type_description\n'}
+[0.035831] (pad_msg) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_pad_msg\n'}
+[0.048933] (pad_msg) StdoutLine: {'line': b'[ 20%] Built target pad_msg__rosidl_generator_c\n'}
+[0.049320] (pad_msg) StdoutLine: {'line': b'[ 20%] Built target pad_msg__cpp\n'}
+[0.067158] (pad_msg) StdoutLine: {'line': b'[ 29%] Built target pad_msg__rosidl_typesupport_introspection_c\n'}
+[0.069848] (pad_msg) StdoutLine: {'line': b'[ 38%] Built target pad_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[0.070493] (pad_msg) StdoutLine: {'line': b'[ 47%] Built target pad_msg__rosidl_typesupport_introspection_cpp\n'}
+[0.081646] (pad_msg) StdoutLine: {'line': b'[ 55%] Built target pad_msg__rosidl_typesupport_cpp\n'}
+[0.083334] (pad_msg) StdoutLine: {'line': b'[ 64%] Built target pad_msg__rosidl_typesupport_c\n'}
+[0.086248] (pad_msg) StdoutLine: {'line': b'[ 73%] Built target pad_msg__rosidl_typesupport_fastrtps_c\n'}
+[0.094130] (pad_msg) StdoutLine: {'line': b'[ 73%] Built target pad_msg\n'}
+[0.099861] (-) TimerEvent: {}
+[0.102408] (pad_msg) StdoutLine: {'line': b'[ 76%] Built target pad_msg__py\n'}
+[0.113819] (pad_msg) StdoutLine: {'line': b'[ 82%] Built target pad_msg__rosidl_generator_py\n'}
+[0.125032] (pad_msg) StdoutLine: {'line': b'[100%] Built target pad_msg_s__rosidl_typesupport_fastrtps_c\n'}
+[0.125229] (pad_msg) StdoutLine: {'line': b'[100%] Built target pad_msg_s__rosidl_typesupport_c\n'}
+[0.125332] (pad_msg) StdoutLine: {'line': b'[100%] Built target pad_msg_s__rosidl_typesupport_introspection_c\n'}
+[0.199981] (-) TimerEvent: {}
+[0.279695] (pad_msg) StdoutLine: {'line': b'running egg_info\n'}
+[0.300107] (-) TimerEvent: {}
+[0.306737] (pad_msg) StdoutLine: {'line': b'writing pad_msg.egg-info/PKG-INFO\n'}
+[0.306962] (pad_msg) StdoutLine: {'line': b'writing dependency_links to pad_msg.egg-info/dependency_links.txt\n'}
+[0.307066] (pad_msg) StdoutLine: {'line': b'writing top-level names to pad_msg.egg-info/top_level.txt\n'}
+[0.367585] (pad_msg) StdoutLine: {'line': b"reading manifest file 'pad_msg.egg-info/SOURCES.txt'\n"}
+[0.368455] (pad_msg) StdoutLine: {'line': b"writing manifest file 'pad_msg.egg-info/SOURCES.txt'\n"}
+[0.393772] (pad_msg) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_pad_msg_egg\n'}
+[0.398870] (pad_msg) CommandEnded: {'returncode': 0}
+[0.399560] (pad_msg) JobProgress: {'identifier': 'pad_msg', 'progress': 'install'}
+[0.400181] (-) TimerEvent: {}
+[0.403476] (pad_msg) Command: {'cmd': ['/opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake', '--install', '/home/tatenami/ros2/ws/pad/build/pad_msg'], 'cwd': '/home/tatenami/ros2/ws/pad/build/pad_msg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tatenami', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'STM32CubeMX_PATH': '/home/tatenami/STM32CubeMX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tatenami', 'OLDPWD': '/home/tatenami/ros2/ws/pad/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '2259', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tatenami', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tatenami', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/tatenami/.cargo/bin:/home/tatenami/.local/bin:/opt/st/stm32cubeclt_1.16.0:/opt/st/stm32cubeclt_1.16.0/STM32CubeProgrammer/bin:/opt/st/stm32cubeclt_1.16.0/STLink-gdb-server/bin:/opt/st/stm32cubeclt_1.16.0/CMake/bin:/opt/st/stm32cubeclt_1.16.0/Ninja/bin:/opt/st/stm32cubeclt_1.16.0/GNU-tools-for-STM32/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tatenami-sub:@/tmp/.ICE-unix/2027,unix/tatenami-sub:/tmp/.ICE-unix/2027', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a8d65584_a45d_4cc7_ac5d_4c04bf760502', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z0V2Y2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tatenami/ros2/ws/pad/build/pad_msg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.407732] (pad_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.410558] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/ament_index/resource_index/rosidl_interfaces/pad_msg\n'}
+[0.410871] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/msg/Pad.json\n'}
+[0.411011] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg\n'}
+[0.411107] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg\n'}
+[0.411239] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/pad.h\n'}
+[0.411417] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.411524] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail\n'}
+[0.411615] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail/pad__type_support.h\n'}
+[0.411703] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail/pad__functions.c\n'}
+[0.411789] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail/pad__functions.h\n'}
+[0.411874] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail/pad__type_support.c\n'}
+[0.411958] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail/pad__description.c\n'}
+[0.412043] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail/pad__struct.h\n'}
+[0.412136] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/environment/library_path.sh\n'}
+[0.412218] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/environment/library_path.dsv\n'}
+[0.412300] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/libpad_msg__rosidl_generator_c.so\n'}
+[0.412384] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg\n'}
+[0.412500] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg\n'}
+[0.412597] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail\n'}
+[0.412683] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail/pad__rosidl_typesupport_fastrtps_c.h\n'}
+[0.412768] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.412855] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/libpad_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[0.412941] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg\n'}
+[0.413026] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg\n'}
+[0.413109] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.413192] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail\n'}
+[0.416502] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail/pad__rosidl_typesupport_introspection_c.h\n'}
+[0.416689] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail/pad__type_support.c\n'}
+[0.416802] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/libpad_msg__rosidl_typesupport_introspection_c.so\n'}
+[0.416886] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/libpad_msg__rosidl_typesupport_c.so\n'}
+[0.416968] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg\n'}
+[0.417050] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg\n'}
+[0.417132] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/pad.hpp\n'}
+[0.417214] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.417297] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail\n'}
+[0.417380] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail/pad__type_support.hpp\n'}
+[0.417479] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail/pad__builder.hpp\n'}
+[0.417565] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail/pad__traits.hpp\n'}
+[0.417648] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail/pad__struct.hpp\n'}
+[0.417729] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg\n'}
+[0.417811] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg\n'}
+[0.417893] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.417977] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail\n'}
+[0.418060] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail/pad__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.418150] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail/dds_fastrtps\n'}
+[0.418232] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/libpad_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.418314] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg\n'}
+[0.418406] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg\n'}
+[0.421550] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail\n'}
+[0.421649] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail/pad__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.421733] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/include/pad_msg/pad_msg/msg/detail/pad__type_support.cpp\n'}
+[0.421814] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/libpad_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[0.421897] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/libpad_msg__rosidl_typesupport_cpp.so\n'}
+[0.421990] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/environment/pythonpath.sh\n'}
+[0.422073] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/environment/pythonpath.dsv\n'}
+[0.422155] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg-0.0.0-py3.12.egg-info\n'}
+[0.422322] (pad_msg) StdoutLine: {'line': b'-- Installing: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[0.422470] (pad_msg) StdoutLine: {'line': b'-- Installing: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[0.422572] (pad_msg) StdoutLine: {'line': b'-- Installing: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[0.422664] (pad_msg) StdoutLine: {'line': b'-- Installing: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[0.422753] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg\n'}
+[0.422840] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg/_pad_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.422925] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg/pad_msg_s__rosidl_typesupport_introspection_c.so\n'}
+[0.423011] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg/msg\n'}
+[0.423095] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg/msg/_pad_s.c\n'}
+[0.423178] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg/msg/_pad.py\n'}
+[0.423276] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg/msg/__init__.py\n'}
+[0.423358] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg/pad_msg_s__rosidl_typesupport_fastrtps_c.so\n'}
+[0.423452] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg/pad_msg_s__rosidl_typesupport_c.so\n'}
+[0.423543] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg/_pad_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.423627] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg/_pad_msg_s.ep.rosidl_typesupport_c.c\n'}
+[0.423709] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg/__init__.py\n'}
+[0.455824] (pad_msg) StdoutLine: {'line': b"Listing '/home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg'...\n"}
+[0.456071] (pad_msg) StdoutLine: {'line': b"Listing '/home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg/msg'...\n"}
+[0.463822] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg/pad_msg_s__rosidl_typesupport_fastrtps_c.so\n'}
+[0.464105] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg/pad_msg_s__rosidl_typesupport_introspection_c.so\n'}
+[0.464376] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages/pad_msg/pad_msg_s__rosidl_typesupport_c.so\n'}
+[0.464657] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/lib/libpad_msg__rosidl_generator_py.so\n'}
+[0.464817] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/msg/Pad.idl\n'}
+[0.464968] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/msg/Pad.msg\n'}
+[0.465186] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/ament_index/resource_index/package_run_dependencies/pad_msg\n'}
+[0.465358] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/ament_index/resource_index/parent_prefix_path/pad_msg\n'}
+[0.465469] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/environment/ament_prefix_path.sh\n'}
+[0.465609] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/environment/ament_prefix_path.dsv\n'}
+[0.465763] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/environment/path.sh\n'}
+[0.465927] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/environment/path.dsv\n'}
+[0.466107] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/local_setup.bash\n'}
+[0.466262] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/local_setup.sh\n'}
+[0.466411] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/local_setup.zsh\n'}
+[0.466510] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/local_setup.dsv\n'}
+[0.466601] (pad_msg) StdoutLine: {'line': b'-- Installing: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/package.dsv\n'}
+[0.466778] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/ament_index/resource_index/packages/pad_msg\n'}
+[0.467320] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/export_pad_msg__rosidl_generator_cExport.cmake\n'}
+[0.468694] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/export_pad_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.468812] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/export_pad_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.470277] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/export_pad_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.470454] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/pad_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.470580] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/pad_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.470697] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/pad_msg__rosidl_typesupport_cExport.cmake\n'}
+[0.470849] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/pad_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.470945] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/export_pad_msg__rosidl_generator_cppExport.cmake\n'}
+[0.471049] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/export_pad_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.471143] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/export_pad_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.471245] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/pad_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.471336] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/pad_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.471498] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/pad_msg__rosidl_typesupport_cppExport.cmake\n'}
+[0.472065] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/pad_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.472167] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/export_pad_msg__rosidl_generator_pyExport.cmake\n'}
+[0.472258] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/export_pad_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.472352] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[0.472476] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.472576] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.472668] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.472761] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.472853] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.472950] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.473051] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/pad_msgConfig.cmake\n'}
+[0.473167] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake/pad_msgConfig-version.cmake\n'}
+[0.475250] (pad_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/package.xml\n'}
+[0.475371] (pad_msg) CommandEnded: {'returncode': 0}
+[0.502505] (-) TimerEvent: {}
+[0.510093] (pad_msg) JobEnded: {'identifier': 'pad_msg', 'rc': 0}
+[0.510825] (gamepad) JobStarted: {'identifier': 'gamepad'}
+[0.524388] (gamepad) JobProgress: {'identifier': 'gamepad', 'progress': 'cmake'}
+[0.525801] (gamepad) JobProgress: {'identifier': 'gamepad', 'progress': 'build'}
+[0.526246] (gamepad) Command: {'cmd': ['/opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake', '--build', '/home/tatenami/ros2/ws/pad/build/gamepad', '--', '-j4', '-l4'], 'cwd': '/home/tatenami/ros2/ws/pad/build/gamepad', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tatenami', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'STM32CubeMX_PATH': '/home/tatenami/STM32CubeMX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tatenami/ros2/ws/pad/install/pad_msg/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tatenami', 'OLDPWD': '/home/tatenami/ros2/ws/pad/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '2259', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tatenami', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tatenami', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/tatenami/.cargo/bin:/home/tatenami/.local/bin:/opt/st/stm32cubeclt_1.16.0:/opt/st/stm32cubeclt_1.16.0/STM32CubeProgrammer/bin:/opt/st/stm32cubeclt_1.16.0/STLink-gdb-server/bin:/opt/st/stm32cubeclt_1.16.0/CMake/bin:/opt/st/stm32cubeclt_1.16.0/Ninja/bin:/opt/st/stm32cubeclt_1.16.0/GNU-tools-for-STM32/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tatenami-sub:@/tmp/.ICE-unix/2027,unix/tatenami-sub:/tmp/.ICE-unix/2027', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a8d65584_a45d_4cc7_ac5d_4c04bf760502', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z0V2Y2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tatenami/ros2/ws/pad/install/pad_msg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tatenami/ros2/ws/pad/build/gamepad', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/tatenami/ros2/ws/pad/install/pad_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.545598] (gamepad) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.602612] (-) TimerEvent: {}
+[0.702902] (-) TimerEvent: {}
+[0.786142] (gamepad) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.802999] (-) TimerEvent: {}
+[0.893763] (gamepad) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.893974] (gamepad) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.894077] (gamepad) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.894452] (gamepad) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.895391] (gamepad) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.895555] (gamepad) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.896424] (gamepad) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.897214] (gamepad) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.903133] (-) TimerEvent: {}
+[0.931132] (gamepad) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.942539] (gamepad) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.957091] (gamepad) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.973647] (gamepad) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.003238] (-) TimerEvent: {}
+[1.053617] (gamepad) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.055207] (gamepad) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.103369] (-) TimerEvent: {}
+[1.130468] (gamepad) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.203492] (-) TimerEvent: {}
+[1.215783] (gamepad) StdoutLine: {'line': b'-- Found pad_msg: 0.0.0 (/home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake)\n'}
+[1.229657] (gamepad) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[1.243970] (gamepad) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.249508] (gamepad) StdoutLine: {'line': b'-- Build files have been written to: /home/tatenami/ros2/ws/pad/build/gamepad\n'}
+[1.280201] (gamepad) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/padpub.cpp.o\x1b[0m\n'}
+[1.281164] (gamepad) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/padsub.cpp.o\x1b[0m\n'}
+[1.306450] (-) TimerEvent: {}
+[1.406727] (-) TimerEvent: {}
+[1.507013] (-) TimerEvent: {}
+[1.607300] (-) TimerEvent: {}
+[1.707605] (-) TimerEvent: {}
+[1.808504] (-) TimerEvent: {}
+[1.908842] (-) TimerEvent: {}
+[2.011625] (-) TimerEvent: {}
+[2.111961] (-) TimerEvent: {}
+[2.212432] (-) TimerEvent: {}
+[2.312816] (-) TimerEvent: {}
+[2.414474] (-) TimerEvent: {}
+[2.514795] (-) TimerEvent: {}
+[2.617655] (-) TimerEvent: {}
+[2.720606] (-) TimerEvent: {}
+[2.823657] (-) TimerEvent: {}
+[2.924099] (-) TimerEvent: {}
+[3.026687] (-) TimerEvent: {}
+[3.126977] (-) TimerEvent: {}
+[3.227304] (-) TimerEvent: {}
+[3.327642] (-) TimerEvent: {}
+[3.427967] (-) TimerEvent: {}
+[3.528337] (-) TimerEvent: {}
+[3.628665] (-) TimerEvent: {}
+[3.728996] (-) TimerEvent: {}
+[3.829331] (-) TimerEvent: {}
+[3.929680] (-) TimerEvent: {}
+[4.030007] (-) TimerEvent: {}
+[4.130340] (-) TimerEvent: {}
+[4.230673] (-) TimerEvent: {}
+[4.330998] (-) TimerEvent: {}
+[4.431319] (-) TimerEvent: {}
+[4.531621] (-) TimerEvent: {}
+[4.631943] (-) TimerEvent: {}
+[4.732295] (-) TimerEvent: {}
+[4.832606] (-) TimerEvent: {}
+[4.932900] (-) TimerEvent: {}
+[5.033227] (-) TimerEvent: {}
+[5.133554] (-) TimerEvent: {}
+[5.233893] (-) TimerEvent: {}
+[5.334193] (-) TimerEvent: {}
+[5.434524] (-) TimerEvent: {}
+[5.534848] (-) TimerEvent: {}
+[5.635154] (-) TimerEvent: {}
+[5.735499] (-) TimerEvent: {}
+[5.835839] (-) TimerEvent: {}
+[5.936159] (-) TimerEvent: {}
+[6.036488] (-) TimerEvent: {}
+[6.136800] (-) TimerEvent: {}
+[6.237121] (-) TimerEvent: {}
+[6.337439] (-) TimerEvent: {}
+[6.431614] (gamepad) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[6.437547] (-) TimerEvent: {}
+[6.537910] (-) TimerEvent: {}
+[6.627754] (gamepad) StdoutLine: {'line': b'[ 75%] Built target publisher\n'}
+[6.638005] (-) TimerEvent: {}
+[6.738277] (-) TimerEvent: {}
+[6.838605] (-) TimerEvent: {}
+[6.938901] (-) TimerEvent: {}
+[7.039195] (-) TimerEvent: {}
+[7.139485] (-) TimerEvent: {}
+[7.239753] (-) TimerEvent: {}
+[7.340014] (-) TimerEvent: {}
+[7.440272] (-) TimerEvent: {}
+[7.540551] (-) TimerEvent: {}
+[7.640844] (-) TimerEvent: {}
+[7.741101] (-) TimerEvent: {}
+[7.841406] (-) TimerEvent: {}
+[7.941713] (-) TimerEvent: {}
+[8.041968] (-) TimerEvent: {}
+[8.142226] (-) TimerEvent: {}
+[8.242480] (-) TimerEvent: {}
+[8.342735] (-) TimerEvent: {}
+[8.443027] (-) TimerEvent: {}
+[8.543285] (-) TimerEvent: {}
+[8.643591] (-) TimerEvent: {}
+[8.743847] (-) TimerEvent: {}
+[8.844142] (-) TimerEvent: {}
+[8.944455] (-) TimerEvent: {}
+[9.044758] (-) TimerEvent: {}
+[9.145009] (-) TimerEvent: {}
+[9.245272] (-) TimerEvent: {}
+[9.345540] (-) TimerEvent: {}
+[9.445799] (-) TimerEvent: {}
+[9.546060] (-) TimerEvent: {}
+[9.562853] (gamepad) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[9.646164] (-) TimerEvent: {}
+[9.746490] (-) TimerEvent: {}
+[9.829647] (gamepad) StdoutLine: {'line': b'[100%] Built target subscriber\n'}
+[9.833549] (gamepad) CommandEnded: {'returncode': 0}
+[9.834141] (gamepad) JobProgress: {'identifier': 'gamepad', 'progress': 'install'}
+[9.834522] (gamepad) Command: {'cmd': ['/opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake', '--install', '/home/tatenami/ros2/ws/pad/build/gamepad'], 'cwd': '/home/tatenami/ros2/ws/pad/build/gamepad', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tatenami', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'STM32CubeMX_PATH': '/home/tatenami/STM32CubeMX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tatenami/ros2/ws/pad/install/pad_msg/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tatenami', 'OLDPWD': '/home/tatenami/ros2/ws/pad/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '2259', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tatenami', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tatenami', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/tatenami/.cargo/bin:/home/tatenami/.local/bin:/opt/st/stm32cubeclt_1.16.0:/opt/st/stm32cubeclt_1.16.0/STM32CubeProgrammer/bin:/opt/st/stm32cubeclt_1.16.0/STLink-gdb-server/bin:/opt/st/stm32cubeclt_1.16.0/CMake/bin:/opt/st/stm32cubeclt_1.16.0/Ninja/bin:/opt/st/stm32cubeclt_1.16.0/GNU-tools-for-STM32/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tatenami-sub:@/tmp/.ICE-unix/2027,unix/tatenami-sub:/tmp/.ICE-unix/2027', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a8d65584_a45d_4cc7_ac5d_4c04bf760502', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z0V2Y2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tatenami/ros2/ws/pad/install/pad_msg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tatenami/ros2/ws/pad/build/gamepad', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/tatenami/ros2/ws/pad/install/pad_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.836832] (gamepad) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.836997] (gamepad) StdoutLine: {'line': b'-- Installing: /home/tatenami/ros2/ws/pad/install/gamepad/share/ament_index/resource_index/package_run_dependencies/gamepad\n'}
+[9.837154] (gamepad) StdoutLine: {'line': b'-- Installing: /home/tatenami/ros2/ws/pad/install/gamepad/share/ament_index/resource_index/parent_prefix_path/gamepad\n'}
+[9.837307] (gamepad) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/environment/ament_prefix_path.sh\n'}
+[9.837449] (gamepad) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/environment/ament_prefix_path.dsv\n'}
+[9.837601] (gamepad) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/environment/path.sh\n'}
+[9.837695] (gamepad) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/environment/path.dsv\n'}
+[9.837784] (gamepad) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/local_setup.bash\n'}
+[9.837872] (gamepad) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/local_setup.sh\n'}
+[9.837959] (gamepad) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/local_setup.zsh\n'}
+[9.838045] (gamepad) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/local_setup.dsv\n'}
+[9.838154] (gamepad) StdoutLine: {'line': b'-- Installing: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/package.dsv\n'}
+[9.838281] (gamepad) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/ament_index/resource_index/packages/gamepad\n'}
+[9.838367] (gamepad) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/cmake/gamepadConfig.cmake\n'}
+[9.838460] (gamepad) StdoutLine: {'line': b'-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/cmake/gamepadConfig-version.cmake\n'}
+[9.838545] (gamepad) StdoutLine: {'line': b'-- Installing: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/package.xml\n'}
+[9.838628] (gamepad) StdoutLine: {'line': b'-- Installing: /home/tatenami/ros2/ws/pad/install/gamepad/lib/gamepad/publisher\n'}
+[9.839511] (gamepad) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tatenami/ros2/ws/pad/install/gamepad/lib/gamepad/publisher" to ""\n'}
+[9.839649] (gamepad) StdoutLine: {'line': b'-- Installing: /home/tatenami/ros2/ws/pad/install/gamepad/lib/gamepad/subscriber\n'}
+[9.843701] (gamepad) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tatenami/ros2/ws/pad/install/gamepad/lib/gamepad/subscriber" to ""\n'}
+[9.844851] (gamepad) CommandEnded: {'returncode': 0}
+[9.846575] (-) TimerEvent: {}
+[9.858592] (gamepad) JobEnded: {'identifier': 'gamepad', 'rc': 0}
+[9.859281] (-) EventReactorShutdown: {}

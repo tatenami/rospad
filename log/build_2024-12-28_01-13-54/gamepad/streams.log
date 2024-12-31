@@ -1,0 +1,51 @@
+[0.016s] Invoking command in '/home/tatenami/ros2/ws/pad/build/gamepad': AMENT_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages:${PYTHONPATH} /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --build /home/tatenami/ros2/ws/pad/build/gamepad -- -j4 -l4
+[0.035s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.275s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.383s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.383s] -- Configured cppcheck include dirs: 
+[0.383s] -- Configured cppcheck exclude dirs and/or files: 
+[0.384s] -- Added test 'lint_cmake' to check CMake code style
+[0.385s] -- Added test 'uncrustify' to check C / C++ code style
+[0.385s] -- Configured uncrustify additional arguments: 
+[0.386s] -- Added test 'xmllint' to check XML markup files
+[0.387s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.420s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.432s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.446s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.463s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.543s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.544s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.620s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.705s] -- Found pad_msg: 0.0.0 (/home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake)
+[0.719s] -- Configuring done (0.7s)
+[0.733s] -- Generating done (0.0s)
+[0.739s] -- Build files have been written to: /home/tatenami/ros2/ws/pad/build/gamepad
+[0.770s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/padpub.cpp.o[0m
+[0.770s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/padsub.cpp.o[0m
+[5.921s] [ 75%] [32m[1mLinking CXX executable publisher[0m
+[6.117s] [ 75%] Built target publisher
+[9.052s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[9.319s] [100%] Built target subscriber
+[9.323s] Invoked command in '/home/tatenami/ros2/ws/pad/build/gamepad' returned '0': AMENT_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages:${PYTHONPATH} /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --build /home/tatenami/ros2/ws/pad/build/gamepad -- -j4 -l4
+[9.324s] Invoking command in '/home/tatenami/ros2/ws/pad/build/gamepad': AMENT_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages:${PYTHONPATH} /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --install /home/tatenami/ros2/ws/pad/build/gamepad
+[9.326s] -- Install configuration: ""
+[9.326s] -- Installing: /home/tatenami/ros2/ws/pad/install/gamepad/share/ament_index/resource_index/package_run_dependencies/gamepad
+[9.326s] -- Installing: /home/tatenami/ros2/ws/pad/install/gamepad/share/ament_index/resource_index/parent_prefix_path/gamepad
+[9.327s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/environment/ament_prefix_path.sh
+[9.327s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/environment/ament_prefix_path.dsv
+[9.327s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/environment/path.sh
+[9.327s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/environment/path.dsv
+[9.327s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/local_setup.bash
+[9.327s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/local_setup.sh
+[9.327s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/local_setup.zsh
+[9.327s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/local_setup.dsv
+[9.327s] -- Installing: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/package.dsv
+[9.328s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/ament_index/resource_index/packages/gamepad
+[9.328s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/cmake/gamepadConfig.cmake
+[9.328s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/cmake/gamepadConfig-version.cmake
+[9.328s] -- Installing: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/package.xml
+[9.328s] -- Installing: /home/tatenami/ros2/ws/pad/install/gamepad/lib/gamepad/publisher
+[9.329s] -- Set non-toolchain portion of runtime path of "/home/tatenami/ros2/ws/pad/install/gamepad/lib/gamepad/publisher" to ""
+[9.329s] -- Installing: /home/tatenami/ros2/ws/pad/install/gamepad/lib/gamepad/subscriber
+[9.333s] -- Set non-toolchain portion of runtime path of "/home/tatenami/ros2/ws/pad/install/gamepad/lib/gamepad/subscriber" to ""
+[9.334s] Invoked command in '/home/tatenami/ros2/ws/pad/build/gamepad' returned '0': AMENT_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages:${PYTHONPATH} /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --install /home/tatenami/ros2/ws/pad/build/gamepad

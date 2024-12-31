@@ -1,0 +1,4 @@
+source;share/pad_msg/local_setup.bash
+source;share/pad_msg/local_setup.dsv
+source;share/pad_msg/local_setup.sh
+source;share/pad_msg/local_setup.zsh

@@ -1,0 +1,22 @@
+[ 66%] Built target subscriber2
+[ 66%] Built target publisher
+[100%] Built target subscriber
+-- Install configuration: ""
+-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/ament_index/resource_index/package_run_dependencies/gamepad
+-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/ament_index/resource_index/parent_prefix_path/gamepad
+-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/environment/path.sh
+-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/environment/path.dsv
+-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/local_setup.bash
+-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/local_setup.sh
+-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/local_setup.zsh
+-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/local_setup.dsv
+-- Installing: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/package.dsv
+-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/ament_index/resource_index/packages/gamepad
+-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/cmake/gamepadConfig.cmake
+-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/cmake/gamepadConfig-version.cmake
+-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/package.xml
+-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/lib/gamepad/publisher
+-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/lib/gamepad/subscriber
+-- Up-to-date: /home/tatenami/ros2/ws/pad/install/gamepad/lib/gamepad/subscriber2

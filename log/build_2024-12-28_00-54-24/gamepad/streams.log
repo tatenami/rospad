@@ -1,0 +1,38 @@
+[0.011s] Invoking command in '/home/tatenami/ros2/ws/pad/build/gamepad': AMENT_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages:${PYTHONPATH} /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --build /home/tatenami/ros2/ws/pad/build/gamepad -- -j4 -l4
+[0.023s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.263s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.371s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.372s] -- Configured cppcheck include dirs: 
+[0.372s] -- Configured cppcheck exclude dirs and/or files: 
+[0.372s] -- Added test 'lint_cmake' to check CMake code style
+[0.373s] -- Added test 'uncrustify' to check C / C++ code style
+[0.373s] -- Configured uncrustify additional arguments: 
+[0.374s] -- Added test 'xmllint' to check XML markup files
+[0.377s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.434s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.451s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.472s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.497s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.604s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.608s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.694s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.719s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.746s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.852s] -- Found pad_msg: 0.0.0 (/home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake)
+[0.867s] -- Configuring done (0.9s)
+[0.884s] -- Generating done (0.0s)
+[0.889s] -- Build files have been written to: /home/tatenami/ros2/ws/pad/build/gamepad
+[0.907s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/padsub.cpp.o[0m
+[0.907s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/padpub.cpp.o[0m
+[5.943s] [ 75%] [32m[1mLinking CXX executable publisher[0m
+[6.163s] /usr/bin/ld: CMakeFiles/publisher.dir/src/padpub.cpp.o: in function `pad::ros::RosPad<pad::ps5::PS5Handler>::copyRawData(std::vector<bool, std::allocator<bool> >&, std::vector<float, std::allocator<float> >&)':
+[6.167s] padpub.cpp:(.text._ZN3pad3ros6RosPadINS_3ps510PS5HandlerEE11copyRawDataERSt6vectorIbSaIbEERS5_IfSaIfEE[_ZN3pad3ros6RosPadINS_3ps510PS5HandlerEE11copyRawDataERSt6vectorIbSaIbEERS5_IfSaIfEE]+0x3b): undefined reference to `pad::InputData<bool>::getVector()'
+[6.167s] /usr/bin/ld: padpub.cpp:(.text._ZN3pad3ros6RosPadINS_3ps510PS5HandlerEE11copyRawDataERSt6vectorIbSaIbEERS5_IfSaIfEE[_ZN3pad3ros6RosPadINS_3ps510PS5HandlerEE11copyRawDataERSt6vectorIbSaIbEERS5_IfSaIfEE]+0x74): undefined reference to `pad::InputData<float>::getVector()'
+[6.180s] collect2: error: ld returned 1 exit status
+[6.185s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:171: publisher] エラー 1
+[6.185s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher.dir/all] エラー 2
+[6.185s] gmake[1]: *** 未完了のジョブを待っています....
+[9.112s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[9.383s] [100%] Built target subscriber
+[9.384s] gmake: *** [Makefile:146: all] エラー 2
+[9.385s] Invoked command in '/home/tatenami/ros2/ws/pad/build/gamepad' returned '2': AMENT_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tatenami/ros2/ws/pad/install/pad_msg/lib/python3.12/site-packages:${PYTHONPATH} /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --build /home/tatenami/ros2/ws/pad/build/gamepad -- -j4 -l4

@@ -1,0 +1,43 @@
+[0.019s] Invoking command in '/home/tatenami/ros2/ws/pad/build/test_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake /home/tatenami/ros2/ws/pad/src/test_launch -DCMAKE_INSTALL_PREFIX=/home/tatenami/ros2/ws/pad/install/test_launch
+[0.087s] -- The C compiler identification is GNU 13.3.0
+[0.157s] -- The CXX compiler identification is GNU 13.3.0
+[0.177s] -- Detecting C compiler ABI info
+[0.244s] -- Detecting C compiler ABI info - done
+[0.256s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.257s] -- Detecting C compile features
+[0.258s] -- Detecting C compile features - done
+[0.268s] -- Detecting CXX compiler ABI info
+[0.368s] -- Detecting CXX compiler ABI info - done
+[0.394s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.394s] -- Detecting CXX compile features
+[0.395s] -- Detecting CXX compile features - done
+[0.399s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.591s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.722s] -- Found gamepad: 0.0.0 (/home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/cmake)
+[0.724s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.852s] -- Added test 'lint_cmake' to check CMake code style
+[0.853s] -- Added test 'xmllint' to check XML markup files
+[0.855s] -- Configuring done (0.8s)
+[0.859s] -- Generating done (0.0s)
+[0.862s] -- Build files have been written to: /home/tatenami/ros2/ws/pad/build/test_launch
+[0.867s] Invoked command in '/home/tatenami/ros2/ws/pad/build/test_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake /home/tatenami/ros2/ws/pad/src/test_launch -DCMAKE_INSTALL_PREFIX=/home/tatenami/ros2/ws/pad/install/test_launch
+[0.868s] Invoking command in '/home/tatenami/ros2/ws/pad/build/test_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --build /home/tatenami/ros2/ws/pad/build/test_launch -- -j4 -l4
+[0.889s] Invoked command in '/home/tatenami/ros2/ws/pad/build/test_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --build /home/tatenami/ros2/ws/pad/build/test_launch -- -j4 -l4
+[0.890s] Invoking command in '/home/tatenami/ros2/ws/pad/build/test_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --install /home/tatenami/ros2/ws/pad/build/test_launch
+[0.890s] -- Install configuration: ""
+[0.890s] -- Installing: /home/tatenami/ros2/ws/pad/install/test_launch/share/ament_index/resource_index/package_run_dependencies/test_launch
+[0.891s] -- Installing: /home/tatenami/ros2/ws/pad/install/test_launch/share/ament_index/resource_index/parent_prefix_path/test_launch
+[0.891s] -- Installing: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/environment/ament_prefix_path.sh
+[0.891s] -- Installing: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/environment/ament_prefix_path.dsv
+[0.891s] -- Installing: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/environment/path.sh
+[0.892s] -- Installing: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/environment/path.dsv
+[0.892s] -- Installing: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/local_setup.bash
+[0.893s] -- Installing: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/local_setup.sh
+[0.893s] -- Installing: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/local_setup.zsh
+[0.893s] -- Installing: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/local_setup.dsv
+[0.894s] -- Installing: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/package.dsv
+[0.895s] -- Installing: /home/tatenami/ros2/ws/pad/install/test_launch/share/ament_index/resource_index/packages/test_launch
+[0.896s] -- Installing: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/cmake/test_launchConfig.cmake
+[0.896s] -- Installing: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/cmake/test_launchConfig-version.cmake
+[0.902s] -- Installing: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/package.xml
+[0.902s] Invoked command in '/home/tatenami/ros2/ws/pad/build/test_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --install /home/tatenami/ros2/ws/pad/build/test_launch

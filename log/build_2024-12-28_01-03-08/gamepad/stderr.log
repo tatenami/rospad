@@ -1,0 +1,7 @@
+/usr/bin/ld: CMakeFiles/publisher.dir/src/padpub.cpp.o: in function `pad::ros::RosPad<pad::ps5::PS5Handler>::copyRawData(std::vector<bool, std::allocator<bool> >&, std::vector<float, std::allocator<float> >&)':
+padpub.cpp:(.text._ZN3pad3ros6RosPadINS_3ps510PS5HandlerEE11copyRawDataERSt6vectorIbSaIbEERS5_IfSaIfEE[_ZN3pad3ros6RosPadINS_3ps510PS5HandlerEE11copyRawDataERSt6vectorIbSaIbEERS5_IfSaIfEE]+0x3b): undefined reference to `pad::InputData<bool>::getVector()'
+/usr/bin/ld: padpub.cpp:(.text._ZN3pad3ros6RosPadINS_3ps510PS5HandlerEE11copyRawDataERSt6vectorIbSaIbEERS5_IfSaIfEE[_ZN3pad3ros6RosPadINS_3ps510PS5HandlerEE11copyRawDataERSt6vectorIbSaIbEERS5_IfSaIfEE]+0x74): undefined reference to `pad::InputData<float>::getVector()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/publisher.dir/build.make:171: publisher] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

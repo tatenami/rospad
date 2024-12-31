@@ -1,0 +1,173 @@
+[0.104s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'gamepad']
+[0.104s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['gamepad'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e326117f440>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e326117f230>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e326117f230>>, mixin_verb=('build',))
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.142s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tatenami/ros2/ws/pad'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/gamepad) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gamepad' with type 'ros.ament_cmake' and name 'gamepad'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/pad_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/pad_msg) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/pad_msg) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/pad_msg) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/pad_msg) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/pad_msg) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/pad_msg) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/pad_msg) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/pad_msg) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pad_msg' with type 'ros.ament_cmake' and name 'pad_msg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_launch) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_launch) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_launch) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_launch) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_launch) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_launch) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_launch) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_launch) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_launch' with type 'ros.ament_cmake' and name 'test_launch'
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.194s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pad_msg' in 'src/pad_msg'
+[0.194s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'test_launch' in 'src/test_launch'
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.196s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/tatenami/ros2/ws/pad/install
+[0.196s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tatenami/ros2/ws/pad/src/pad_msg/install
+[0.198s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/jazzy
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'cmake_target' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'cmake_clean_cache' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'cmake_clean_first' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'cmake_force_configure' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'ament_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'catkin_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'gamepad' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.243s] DEBUG:colcon.colcon_core.verb:Building package 'gamepad' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tatenami/ros2/ws/pad/build/gamepad', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tatenami/ros2/ws/pad/install/gamepad', 'merge_install': False, 'path': '/home/tatenami/ros2/ws/pad/src/gamepad', 'symlink_install': False, 'test_result_base': None}
+[0.243s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.244s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.244s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tatenami/ros2/ws/pad/src/gamepad' with build type 'ament_cmake'
+[0.244s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tatenami/ros2/ws/pad/src/gamepad'
+[0.246s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.247s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.247s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tatenami/ros2/ws/pad/build/gamepad': CMAKE_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg:/home/tatenami/ros2/ws/pad/install/gamepad:/home/tatenami/ros2/ws/pad/src/pad_msg/install/pad_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --build /home/tatenami/ros2/ws/pad/build/gamepad -- -j4 -l4
+[9.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tatenami/ros2/ws/pad/build/gamepad' returned '0': CMAKE_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg:/home/tatenami/ros2/ws/pad/install/gamepad:/home/tatenami/ros2/ws/pad/src/pad_msg/install/pad_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --build /home/tatenami/ros2/ws/pad/build/gamepad -- -j4 -l4
+[9.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tatenami/ros2/ws/pad/build/gamepad': CMAKE_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg:/home/tatenami/ros2/ws/pad/install/gamepad:/home/tatenami/ros2/ws/pad/src/pad_msg/install/pad_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --install /home/tatenami/ros2/ws/pad/build/gamepad
+[9.520s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gamepad)
+[9.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tatenami/ros2/ws/pad/build/gamepad' returned '0': CMAKE_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/pad_msg:/home/tatenami/ros2/ws/pad/install/gamepad:/home/tatenami/ros2/ws/pad/src/pad_msg/install/pad_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --install /home/tatenami/ros2/ws/pad/build/gamepad
+[9.522s] Level 1:colcon.colcon_core.environment:checking '/home/tatenami/ros2/ws/pad/install/gamepad' for CMake module files
+[9.523s] Level 1:colcon.colcon_core.environment:checking '/home/tatenami/ros2/ws/pad/install/gamepad' for CMake config files
+[9.523s] Level 1:colcon.colcon_core.shell:create_environment_hook('gamepad', 'cmake_prefix_path')
+[9.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/hook/cmake_prefix_path.ps1'
+[9.524s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/hook/cmake_prefix_path.dsv'
+[9.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/hook/cmake_prefix_path.sh'
+[9.525s] Level 1:colcon.colcon_core.environment:checking '/home/tatenami/ros2/ws/pad/install/gamepad/lib'
+[9.526s] Level 1:colcon.colcon_core.environment:checking '/home/tatenami/ros2/ws/pad/install/gamepad/bin'
+[9.526s] Level 1:colcon.colcon_core.environment:checking '/home/tatenami/ros2/ws/pad/install/gamepad/lib/pkgconfig/gamepad.pc'
+[9.526s] Level 1:colcon.colcon_core.environment:checking '/home/tatenami/ros2/ws/pad/install/gamepad/lib/python3.12/site-packages'
+[9.526s] Level 1:colcon.colcon_core.environment:checking '/home/tatenami/ros2/ws/pad/install/gamepad/bin'
+[9.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/package.ps1'
+[9.527s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/package.dsv'
+[9.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/package.sh'
+[9.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/package.bash'
+[9.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/package.zsh'
+[9.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tatenami/ros2/ws/pad/install/gamepad/share/colcon-core/packages/gamepad)
+[9.530s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gamepad)
+[9.531s] Level 1:colcon.colcon_core.environment:checking '/home/tatenami/ros2/ws/pad/install/gamepad' for CMake module files
+[9.531s] Level 1:colcon.colcon_core.environment:checking '/home/tatenami/ros2/ws/pad/install/gamepad' for CMake config files
+[9.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('gamepad', 'cmake_prefix_path')
+[9.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/hook/cmake_prefix_path.ps1'
+[9.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/hook/cmake_prefix_path.dsv'
+[9.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/hook/cmake_prefix_path.sh'
+[9.534s] Level 1:colcon.colcon_core.environment:checking '/home/tatenami/ros2/ws/pad/install/gamepad/lib'
+[9.535s] Level 1:colcon.colcon_core.environment:checking '/home/tatenami/ros2/ws/pad/install/gamepad/bin'
+[9.535s] Level 1:colcon.colcon_core.environment:checking '/home/tatenami/ros2/ws/pad/install/gamepad/lib/pkgconfig/gamepad.pc'
+[9.535s] Level 1:colcon.colcon_core.environment:checking '/home/tatenami/ros2/ws/pad/install/gamepad/lib/python3.12/site-packages'
+[9.535s] Level 1:colcon.colcon_core.environment:checking '/home/tatenami/ros2/ws/pad/install/gamepad/bin'
+[9.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/package.ps1'
+[9.537s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/package.dsv'
+[9.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/package.sh'
+[9.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/package.bash'
+[9.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/tatenami/ros2/ws/pad/install/gamepad/share/gamepad/package.zsh'
+[9.539s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tatenami/ros2/ws/pad/install/gamepad/share/colcon-core/packages/gamepad)
+[9.540s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.540s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.541s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.541s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.548s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.548s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.548s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.567s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.567s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tatenami/ros2/ws/pad/install/local_setup.ps1'
+[9.568s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tatenami/ros2/ws/pad/install/_local_setup_util_ps1.py'
+[9.570s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tatenami/ros2/ws/pad/install/setup.ps1'
+[9.571s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tatenami/ros2/ws/pad/install/local_setup.sh'
+[9.572s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tatenami/ros2/ws/pad/install/_local_setup_util_sh.py'
+[9.573s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tatenami/ros2/ws/pad/install/setup.sh'
+[9.574s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tatenami/ros2/ws/pad/install/local_setup.bash'
+[9.575s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tatenami/ros2/ws/pad/install/setup.bash'
+[9.576s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tatenami/ros2/ws/pad/install/local_setup.zsh'
+[9.576s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tatenami/ros2/ws/pad/install/setup.zsh'

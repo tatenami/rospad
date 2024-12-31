@@ -1,0 +1,7 @@
+{
+  "package_name": "pad_msg",
+  "output_dir": "/home/tatenami/ros2/ws/pad/build/pad_msg/rosidl_generator_type_description/pad_msg",
+  "idl_tuples": [
+    "/home/tatenami/ros2/ws/pad/build/pad_msg/rosidl_adapter/pad_msg:msg/Pad.idl"
+  ]
+}

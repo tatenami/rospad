@@ -1,0 +1,30 @@
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found pad_msg: 0.0.0 (/home/tatenami/ros2/ws/pad/install/pad_msg/share/pad_msg/cmake)
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tatenami/ros2/ws/pad/build/gamepad
+[ 50%] Built target subscriber
+[ 75%] [32m[1mLinking CXX executable publisher[0m
+/usr/bin/ld: CMakeFiles/publisher.dir/src/padpub.cpp.o: in function `pad::ros::RosPad<pad::ps5::PS5Handler>::copyRawData(std::vector<bool, std::allocator<bool> >&, std::vector<float, std::allocator<float> >&)':
+padpub.cpp:(.text._ZN3pad3ros6RosPadINS_3ps510PS5HandlerEE11copyRawDataERSt6vectorIbSaIbEERS5_IfSaIfEE[_ZN3pad3ros6RosPadINS_3ps510PS5HandlerEE11copyRawDataERSt6vectorIbSaIbEERS5_IfSaIfEE]+0x3b): undefined reference to `pad::InputData<bool>::getVector()'
+/usr/bin/ld: padpub.cpp:(.text._ZN3pad3ros6RosPadINS_3ps510PS5HandlerEE11copyRawDataERSt6vectorIbSaIbEERS5_IfSaIfEE[_ZN3pad3ros6RosPadINS_3ps510PS5HandlerEE11copyRawDataERSt6vectorIbSaIbEERS5_IfSaIfEE]+0x74): undefined reference to `pad::InputData<float>::getVector()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/publisher.dir/build.make:171: publisher] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2
