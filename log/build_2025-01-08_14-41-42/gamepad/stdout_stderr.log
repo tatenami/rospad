@@ -1,0 +1,28 @@
+gmake[2]: *** 'publisher' に必要なターゲット '/opt/ros/jazzy/lib/libfastcdr.so.2.2.4' を make するルールがありません.  中止.
+gmake[2]: *** 未完了のジョブを待っています....
+gmake[2]: *** 'subscriber' に必要なターゲット '/opt/ros/jazzy/lib/libfastcdr.so.2.2.4' を make するルールがありません.  中止.
+gmake[2]: *** 未完了のジョブを待っています....
+gmake[2]: *** 'subscriber2' に必要なターゲット '/opt/ros/jazzy/lib/libfastcdr.so.2.2.4' を make するルールがありません.  中止.
+gmake[2]: *** 未完了のジョブを待っています....
+[ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/padpub.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/padsub.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/subscriber2.dir/src/padsub2.cpp.o[0m
+In file included from [01m[K/home/tatenami/ros2/ws/pad/src/gamepad/src/padpub.cpp:5[m[K:
+/usr/local/include/pad/padros.hpp: In instantiation of ‘[01m[Kpad::ros::RosPad<Editor>::[01;32m[KRosPad[m[K(std::string, uint, uint) [35m[K[with Editor = pad::ps5::PS5Editor; std::string = std::__cxx11::basic_string<char>; uint = unsigned int][m[K[m[K’:
+[01m[K/home/tatenami/ros2/ws/pad/src/gamepad/src/padpub.cpp:19:51:[m[K   required from here
+[01m[K/usr/local/include/pad/padros.hpp:14:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kpad::BasePad::BasePad(std::string&, uint&, uint&)[m[K’
+   14 |         BasePad(device_name, total_button, total_axis[01;31m[K)[m[K
+      |                                                      [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/pad/pad.hpp:4[m[K,
+                 from [01m[K/usr/local/include/pad/ps5pad.hpp:4[m[K,
+                 from [01m[K/home/tatenami/ros2/ws/pad/src/gamepad/src/padpub.cpp:4[m[K:
+[01m[K/usr/local/include/pad/padbase.hpp:212:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kpad::BasePad::[01;32m[KBasePad[m[K(std::string)[m[K’
+  212 |     [01;36m[KBasePad[m[K(std::string device_name):
+      |     [01;36m[K^~~~~~~[m[K
+[01m[K/usr/local/include/pad/padbase.hpp:212:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/padpub.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/publisher.dir/all] エラー 2
+gmake[1]: *** 未完了のジョブを待っています....
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/subscriber2.dir/all] エラー 2
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/subscriber.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

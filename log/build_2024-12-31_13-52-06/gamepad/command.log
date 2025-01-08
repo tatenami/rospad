@@ -1,0 +1,2 @@
+Invoking command in '/home/tatenami/ros2/ws/rospad/build/gamepad': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --build /home/tatenami/ros2/ws/rospad/build/gamepad -- -j4 -l4
+Invoked command in '/home/tatenami/ros2/ws/rospad/build/gamepad' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --build /home/tatenami/ros2/ws/rospad/build/gamepad -- -j4 -l4

@@ -1,0 +1,30 @@
+[0.012s] Invoking command in '/home/tatenami/ros2/ws/pad/build/gamepad': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --build /home/tatenami/ros2/ws/pad/build/gamepad -- -j4 -l4
+[0.080s] gmake[2]: *** 'publisher' に必要なターゲット '/opt/ros/jazzy/lib/libfastcdr.so.2.2.4' を make するルールがありません.  中止.
+[0.080s] gmake[2]: *** 未完了のジョブを待っています....
+[0.080s] gmake[2]: *** 'subscriber' に必要なターゲット '/opt/ros/jazzy/lib/libfastcdr.so.2.2.4' を make するルールがありません.  中止.
+[0.080s] gmake[2]: *** 未完了のジョブを待っています....
+[0.081s] gmake[2]: *** 'subscriber2' に必要なターゲット '/opt/ros/jazzy/lib/libfastcdr.so.2.2.4' を make するルールがありません.  中止.
+[0.081s] gmake[2]: *** 未完了のジョブを待っています....
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/padpub.cpp.o[0m
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/padsub.cpp.o[0m
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber2.dir/src/padsub2.cpp.o[0m
+[3.460s] In file included from [01m[K/home/tatenami/ros2/ws/pad/src/gamepad/src/padpub.cpp:5[m[K:
+[3.460s] /usr/local/include/pad/padros.hpp: In instantiation of ‘[01m[Kpad::ros::RosPad<Editor>::[01;32m[KRosPad[m[K(std::string, uint, uint) [35m[K[with Editor = pad::ps5::PS5Editor; std::string = std::__cxx11::basic_string<char>; uint = unsigned int][m[K[m[K’:
+[3.460s] [01m[K/home/tatenami/ros2/ws/pad/src/gamepad/src/padpub.cpp:19:51:[m[K   required from here
+[3.460s] [01m[K/usr/local/include/pad/padros.hpp:14:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kpad::BasePad::BasePad(std::string&, uint&, uint&)[m[K’
+[3.460s]    14 |         BasePad(device_name, total_button, total_axis[01;31m[K)[m[K
+[3.460s]       |                                                      [01;31m[K^[m[K
+[3.461s] In file included from [01m[K/usr/local/include/pad/pad.hpp:4[m[K,
+[3.462s]                  from [01m[K/usr/local/include/pad/ps5pad.hpp:4[m[K,
+[3.462s]                  from [01m[K/home/tatenami/ros2/ws/pad/src/gamepad/src/padpub.cpp:4[m[K:
+[3.463s] [01m[K/usr/local/include/pad/padbase.hpp:212:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kpad::BasePad::[01;32m[KBasePad[m[K(std::string)[m[K’
+[3.463s]   212 |     [01;36m[KBasePad[m[K(std::string device_name):
+[3.463s]       |     [01;36m[K^~~~~~~[m[K
+[3.463s] [01m[K/usr/local/include/pad/padbase.hpp:212:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[4.541s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/padpub.cpp.o] エラー 1
+[4.541s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/publisher.dir/all] エラー 2
+[4.541s] gmake[1]: *** 未完了のジョブを待っています....
+[9.087s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/subscriber2.dir/all] エラー 2
+[9.197s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/subscriber.dir/all] エラー 2
+[9.197s] gmake: *** [Makefile:146: all] エラー 2
+[9.199s] Invoked command in '/home/tatenami/ros2/ws/pad/build/gamepad' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --build /home/tatenami/ros2/ws/pad/build/gamepad -- -j4 -l4

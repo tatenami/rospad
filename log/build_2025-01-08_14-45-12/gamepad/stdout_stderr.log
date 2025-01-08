@@ -1,0 +1,14 @@
+gmake[2]: *** 'publisher' に必要なターゲット '/opt/ros/jazzy/lib/libfastcdr.so.2.2.4' を make するルールがありません.  中止.
+gmake[2]: *** 'subscriber' に必要なターゲット '/opt/ros/jazzy/lib/libfastcdr.so.2.2.4' を make するルールがありません.  中止.
+gmake[2]: *** 未完了のジョブを待っています....
+gmake[2]: *** 'subscriber2' に必要なターゲット '/opt/ros/jazzy/lib/libfastcdr.so.2.2.4' を make するルールがありません.  中止.
+gmake[2]: *** 未完了のジョブを待っています....
+gmake[2]: *** 未完了のジョブを待っています....
+[ 33%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/padsub.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/padpub.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/subscriber2.dir/src/padsub2.cpp.o[0m
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/publisher.dir/all] エラー 2
+gmake[1]: *** 未完了のジョブを待っています....
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/subscriber2.dir/all] エラー 2
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/subscriber.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

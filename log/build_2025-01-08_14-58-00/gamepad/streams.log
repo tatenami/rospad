@@ -1,0 +1,10 @@
+[0.012s] Invoking command in '/home/tatenami/ros2/ws/pad/build/gamepad': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --build /home/tatenami/ros2/ws/pad/build/gamepad -- -j4 -l4
+[0.044s] gmake[2]: *** 'subscriber' に必要なターゲット '/opt/ros/jazzy/lib/libfastcdr.so.2.2.4' を make するルールがありません.  中止.
+[0.045s] gmake[2]: *** 'subscriber2' に必要なターゲット '/opt/ros/jazzy/lib/libfastcdr.so.2.2.4' を make するルールがありません.  中止.
+[0.045s] gmake[2]: *** 'publisher' に必要なターゲット '/opt/ros/jazzy/lib/libfastcdr.so.2.2.4' を make するルールがありません.  中止.
+[0.045s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/publisher.dir/all] エラー 2
+[0.045s] gmake[1]: *** 未完了のジョブを待っています....
+[0.046s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/subscriber.dir/all] エラー 2
+[0.046s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/subscriber2.dir/all] エラー 2
+[0.046s] gmake: *** [Makefile:146: all] エラー 2
+[0.047s] Invoked command in '/home/tatenami/ros2/ws/pad/build/gamepad' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --build /home/tatenami/ros2/ws/pad/build/gamepad -- -j4 -l4

@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000261] (gamepad) JobQueued: {'identifier': 'gamepad', 'dependencies': OrderedDict()}
+[0.000300] (test_launch) JobQueued: {'identifier': 'test_launch', 'dependencies': OrderedDict({'gamepad': '/home/tatenami/ros2/ws/pad/install/gamepad'})}
+[0.000526] (gamepad) JobStarted: {'identifier': 'gamepad'}
+[0.009644] (gamepad) JobProgress: {'identifier': 'gamepad', 'progress': 'cmake'}
+[0.010519] (gamepad) JobProgress: {'identifier': 'gamepad', 'progress': 'build'}
+[0.011147] (gamepad) Command: {'cmd': ['/opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake', '--build', '/home/tatenami/ros2/ws/pad/build/gamepad', '--', '-j4', '-l4'], 'cwd': '/home/tatenami/ros2/ws/pad/build/gamepad', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tatenami', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'STM32CubeMX_PATH': '/home/tatenami/STM32CubeMX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tatenami', 'OLDPWD': '/home/tatenami/ros2/ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '2221', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tatenami', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tatenami', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/tatenami/.cargo/bin:/home/tatenami/.local/bin:/opt/st/stm32cubeclt_1.16.0:/opt/st/stm32cubeclt_1.16.0/STM32CubeProgrammer/bin:/opt/st/stm32cubeclt_1.16.0/STLink-gdb-server/bin:/opt/st/stm32cubeclt_1.16.0/CMake/bin:/opt/st/stm32cubeclt_1.16.0/Ninja/bin:/opt/st/stm32cubeclt_1.16.0/GNU-tools-for-STM32/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tatenami-sub:@/tmp/.ICE-unix/2017,unix/tatenami-sub:/tmp/.ICE-unix/2017', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ce7288b0_72ae_499e_b0a9_572102cf50dc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.988IZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tatenami/ros2/ws/pad/build/gamepad', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.079899] (gamepad) StderrLine: {'line': b"gmake[2]: *** 'publisher' \xe3\x81\xab\xe5\xbf\x85\xe8\xa6\x81\xe3\x81\xaa\xe3\x82\xbf\xe3\x83\xbc\xe3\x82\xb2\xe3\x83\x83\xe3\x83\x88 '/opt/ros/jazzy/lib/libfastcdr.so.2.2.4' \xe3\x82\x92 make \xe3\x81\x99\xe3\x82\x8b\xe3\x83\xab\xe3\x83\xbc\xe3\x83\xab\xe3\x81\x8c\xe3\x81\x82\xe3\x82\x8a\xe3\x81\xbe\xe3\x81\x9b\xe3\x82\x93.  \xe4\xb8\xad\xe6\xad\xa2.\n"}
+[0.080291] (gamepad) StderrLine: {'line': b'gmake[2]: *** \xe6\x9c\xaa\xe5\xae\x8c\xe4\xba\x86\xe3\x81\xae\xe3\x82\xb8\xe3\x83\xa7\xe3\x83\x96\xe3\x82\x92\xe5\xbe\x85\xe3\x81\xa3\xe3\x81\xa6\xe3\x81\x84\xe3\x81\xbe\xe3\x81\x99....\n'}
+[0.080500] (gamepad) StderrLine: {'line': b"gmake[2]: *** 'subscriber' \xe3\x81\xab\xe5\xbf\x85\xe8\xa6\x81\xe3\x81\xaa\xe3\x82\xbf\xe3\x83\xbc\xe3\x82\xb2\xe3\x83\x83\xe3\x83\x88 '/opt/ros/jazzy/lib/libfastcdr.so.2.2.4' \xe3\x82\x92 make \xe3\x81\x99\xe3\x82\x8b\xe3\x83\xab\xe3\x83\xbc\xe3\x83\xab\xe3\x81\x8c\xe3\x81\x82\xe3\x82\x8a\xe3\x81\xbe\xe3\x81\x9b\xe3\x82\x93.  \xe4\xb8\xad\xe6\xad\xa2.\n"}
+[0.080727] (gamepad) StderrLine: {'line': b'gmake[2]: *** \xe6\x9c\xaa\xe5\xae\x8c\xe4\xba\x86\xe3\x81\xae\xe3\x82\xb8\xe3\x83\xa7\xe3\x83\x96\xe3\x82\x92\xe5\xbe\x85\xe3\x81\xa3\xe3\x81\xa6\xe3\x81\x84\xe3\x81\xbe\xe3\x81\x99....\n'}
+[0.080927] (gamepad) StderrLine: {'line': b"gmake[2]: *** 'subscriber2' \xe3\x81\xab\xe5\xbf\x85\xe8\xa6\x81\xe3\x81\xaa\xe3\x82\xbf\xe3\x83\xbc\xe3\x82\xb2\xe3\x83\x83\xe3\x83\x88 '/opt/ros/jazzy/lib/libfastcdr.so.2.2.4' \xe3\x82\x92 make \xe3\x81\x99\xe3\x82\x8b\xe3\x83\xab\xe3\x83\xbc\xe3\x83\xab\xe3\x81\x8c\xe3\x81\x82\xe3\x82\x8a\xe3\x81\xbe\xe3\x81\x9b\xe3\x82\x93.  \xe4\xb8\xad\xe6\xad\xa2.\n"}
+[0.081099] (gamepad) StderrLine: {'line': b'gmake[2]: *** \xe6\x9c\xaa\xe5\xae\x8c\xe4\xba\x86\xe3\x81\xae\xe3\x82\xb8\xe3\x83\xa7\xe3\x83\x96\xe3\x82\x92\xe5\xbe\x85\xe3\x81\xa3\xe3\x81\xa6\xe3\x81\x84\xe3\x81\xbe\xe3\x81\x99....\n'}
+[0.082395] (gamepad) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/padpub.cpp.o\x1b[0m\n'}
+[0.082678] (gamepad) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/padsub.cpp.o\x1b[0m\n'}
+[0.082862] (gamepad) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber2.dir/src/padsub2.cpp.o\x1b[0m\n'}
+[0.100715] (-) TimerEvent: {}
+[0.201057] (-) TimerEvent: {}
+[0.301450] (-) TimerEvent: {}
+[0.405772] (-) TimerEvent: {}
+[0.506176] (-) TimerEvent: {}
+[0.606609] (-) TimerEvent: {}
+[0.709248] (-) TimerEvent: {}
+[0.809779] (-) TimerEvent: {}
+[0.910256] (-) TimerEvent: {}
+[1.012763] (-) TimerEvent: {}
+[1.115690] (-) TimerEvent: {}
+[1.219001] (-) TimerEvent: {}
+[1.319350] (-) TimerEvent: {}
+[1.423137] (-) TimerEvent: {}
+[1.523699] (-) TimerEvent: {}
+[1.628164] (-) TimerEvent: {}
+[1.731689] (-) TimerEvent: {}
+[1.832875] (-) TimerEvent: {}
+[1.936150] (-) TimerEvent: {}
+[2.038731] (-) TimerEvent: {}
+[2.141181] (-) TimerEvent: {}
+[2.241781] (-) TimerEvent: {}
+[2.342260] (-) TimerEvent: {}
+[2.444734] (-) TimerEvent: {}
+[2.545031] (-) TimerEvent: {}
+[2.645987] (-) TimerEvent: {}
+[2.746457] (-) TimerEvent: {}
+[2.849291] (-) TimerEvent: {}
+[2.949696] (-) TimerEvent: {}
+[3.050351] (-) TimerEvent: {}
+[3.150772] (-) TimerEvent: {}
+[3.254031] (-) TimerEvent: {}
+[3.354591] (-) TimerEvent: {}
+[3.455046] (-) TimerEvent: {}
+[3.459646] (gamepad) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tatenami/ros2/ws/pad/src/gamepad/src/padpub.cpp:5\x1b[m\x1b[K:\n'}
+[3.460441] (gamepad) StderrLine: {'line': b'/usr/local/include/pad/padros.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kpad::ros::RosPad<Editor>::\x1b[01;32m\x1b[KRosPad\x1b[m\x1b[K(std::string, uint, uint) \x1b[35m\x1b[K[with Editor = pad::ps5::PS5Editor; std::string = std::__cxx11::basic_string<char>; uint = unsigned int]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.460577] (gamepad) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tatenami/ros2/ws/pad/src/gamepad/src/padpub.cpp:19:51:\x1b[m\x1b[K   required from here\n'}
+[3.460713] (gamepad) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pad/padros.hpp:14:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kpad::BasePad::BasePad(std::string&, uint&, uint&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.460830] (gamepad) StderrLine: {'line': b'   14 |         BasePad(device_name, total_button, total_axis\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[3.460927] (gamepad) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.461023] (gamepad) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/pad/pad.hpp:4\x1b[m\x1b[K,\n'}
+[3.461118] (gamepad) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/pad/ps5pad.hpp:4\x1b[m\x1b[K,\n'}
+[3.462877] (gamepad) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tatenami/ros2/ws/pad/src/gamepad/src/padpub.cpp:4\x1b[m\x1b[K:\n'}
+[3.462998] (gamepad) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pad/padbase.hpp:212:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kpad::BasePad::\x1b[01;32m\x1b[KBasePad\x1b[m\x1b[K(std::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.463098] (gamepad) StderrLine: {'line': b'  212 |     \x1b[01;36m\x1b[KBasePad\x1b[m\x1b[K(std::string device_name):\n'}
+[3.463192] (gamepad) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.463287] (gamepad) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/pad/padbase.hpp:212:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 3 provided\n'}
+[3.555160] (-) TimerEvent: {}
+[3.658709] (-) TimerEvent: {}
+[3.761222] (-) TimerEvent: {}
+[3.863716] (-) TimerEvent: {}
+[3.966179] (-) TimerEvent: {}
+[4.068740] (-) TimerEvent: {}
+[4.171394] (-) TimerEvent: {}
+[4.271756] (-) TimerEvent: {}
+[4.372217] (-) TimerEvent: {}
+[4.474762] (-) TimerEvent: {}
+[4.541478] (gamepad) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/padpub.cpp.o] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 1\n'}
+[4.541710] (gamepad) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/publisher.dir/all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[4.541816] (gamepad) StderrLine: {'line': b'gmake[1]: *** \xe6\x9c\xaa\xe5\xae\x8c\xe4\xba\x86\xe3\x81\xae\xe3\x82\xb8\xe3\x83\xa7\xe3\x83\x96\xe3\x82\x92\xe5\xbe\x85\xe3\x81\xa3\xe3\x81\xa6\xe3\x81\x84\xe3\x81\xbe\xe3\x81\x99....\n'}
+[4.574906] (-) TimerEvent: {}
+[4.675203] (-) TimerEvent: {}
+[4.775533] (-) TimerEvent: {}
+[4.877047] (-) TimerEvent: {}
+[4.977335] (-) TimerEvent: {}
+[5.077648] (-) TimerEvent: {}
+[5.177991] (-) TimerEvent: {}
+[5.278292] (-) TimerEvent: {}
+[5.378680] (-) TimerEvent: {}
+[5.479168] (-) TimerEvent: {}
+[5.579520] (-) TimerEvent: {}
+[5.679826] (-) TimerEvent: {}
+[5.780141] (-) TimerEvent: {}
+[5.880445] (-) TimerEvent: {}
+[5.980747] (-) TimerEvent: {}
+[6.081083] (-) TimerEvent: {}
+[6.181404] (-) TimerEvent: {}
+[6.281738] (-) TimerEvent: {}
+[6.382051] (-) TimerEvent: {}
+[6.482322] (-) TimerEvent: {}
+[6.582634] (-) TimerEvent: {}
+[6.682920] (-) TimerEvent: {}
+[6.783197] (-) TimerEvent: {}
+[6.884742] (-) TimerEvent: {}
+[6.985020] (-) TimerEvent: {}
+[7.085296] (-) TimerEvent: {}
+[7.185604] (-) TimerEvent: {}
+[7.285936] (-) TimerEvent: {}
+[7.386220] (-) TimerEvent: {}
+[7.486502] (-) TimerEvent: {}
+[7.586812] (-) TimerEvent: {}
+[7.687080] (-) TimerEvent: {}
+[7.787357] (-) TimerEvent: {}
+[7.887671] (-) TimerEvent: {}
+[7.987987] (-) TimerEvent: {}
+[8.088264] (-) TimerEvent: {}
+[8.188706] (-) TimerEvent: {}
+[8.289019] (-) TimerEvent: {}
+[8.389291] (-) TimerEvent: {}
+[8.489590] (-) TimerEvent: {}
+[8.589903] (-) TimerEvent: {}
+[8.690223] (-) TimerEvent: {}
+[8.795720] (-) TimerEvent: {}
+[8.896057] (-) TimerEvent: {}
+[8.996507] (-) TimerEvent: {}
+[9.087182] (gamepad) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/subscriber2.dir/all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[9.096633] (-) TimerEvent: {}
+[9.196945] (-) TimerEvent: {}
+[9.197168] (gamepad) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/subscriber.dir/all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[9.197423] (gamepad) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[9.199115] (gamepad) CommandEnded: {'returncode': 2}
+[9.215531] (gamepad) JobEnded: {'identifier': 'gamepad', 'rc': 2}
+[9.226155] (test_launch) JobSkipped: {'identifier': 'test_launch'}
+[9.226309] (-) EventReactorShutdown: {}

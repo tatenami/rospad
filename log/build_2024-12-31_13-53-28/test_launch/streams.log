@@ -1,0 +1,22 @@
+[0.007s] Invoking command in '/home/tatenami/ros2/ws/pad/build/test_launch': AMENT_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/gamepad:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/gamepad:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --build /home/tatenami/ros2/ws/pad/build/test_launch -- -j4 -l4
+[0.019s] Invoked command in '/home/tatenami/ros2/ws/pad/build/test_launch' returned '0': AMENT_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/gamepad:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/gamepad:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --build /home/tatenami/ros2/ws/pad/build/test_launch -- -j4 -l4
+[0.020s] Invoking command in '/home/tatenami/ros2/ws/pad/build/test_launch': AMENT_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/gamepad:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/gamepad:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --install /home/tatenami/ros2/ws/pad/build/test_launch
+[0.022s] -- Install configuration: ""
+[0.022s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/test_launch/share/ament_index/resource_index/package_run_dependencies/test_launch
+[0.023s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/test_launch/share/ament_index/resource_index/parent_prefix_path/test_launch
+[0.023s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/environment/ament_prefix_path.sh
+[0.023s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/environment/ament_prefix_path.dsv
+[0.023s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/environment/path.sh
+[0.023s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/environment/path.dsv
+[0.023s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/local_setup.bash
+[0.024s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/local_setup.sh
+[0.024s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/local_setup.zsh
+[0.024s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/local_setup.dsv
+[0.024s] -- Installing: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/package.dsv
+[0.024s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/test_launch/share/ament_index/resource_index/packages/test_launch
+[0.024s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/cmake/test_launchConfig.cmake
+[0.025s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/cmake/test_launchConfig-version.cmake
+[0.025s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch/package.xml
+[0.025s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch//launch
+[0.025s] -- Up-to-date: /home/tatenami/ros2/ws/pad/install/test_launch/share/test_launch//launch/pubsub_nodes.launch.py
+[0.026s] Invoked command in '/home/tatenami/ros2/ws/pad/build/test_launch' returned '0': AMENT_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/gamepad:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tatenami/ros2/ws/pad/install/gamepad:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --install /home/tatenami/ros2/ws/pad/build/test_launch

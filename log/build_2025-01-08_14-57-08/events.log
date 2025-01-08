@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000313] (-) JobUnselected: {'identifier': 'gamepad'}
+[0.000387] (-) JobUnselected: {'identifier': 'test_launch'}
+[0.000590] (-) EventReactorShutdown: {}

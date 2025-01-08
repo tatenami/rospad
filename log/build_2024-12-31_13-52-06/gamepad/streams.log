@@ -1,0 +1,6 @@
+[0.011s] Invoking command in '/home/tatenami/ros2/ws/rospad/build/gamepad': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --build /home/tatenami/ros2/ws/rospad/build/gamepad -- -j4 -l4
+[0.014s] [0mCMake Error: The current CMakeCache.txt directory /home/tatenami/ros2/ws/rospad/build/gamepad/CMakeCache.txt is different than the directory /home/tatenami/ros2/ws/pad/build/gamepad where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.020s] [0mCMake Error: The source directory "/home/tatenami/ros2/ws/pad/src/gamepad" does not exist.
+[0.020s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.021s] gmake: *** [Makefile:349: cmake_check_build_system] エラー 1
+[0.022s] Invoked command in '/home/tatenami/ros2/ws/rospad/build/gamepad' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --build /home/tatenami/ros2/ws/rospad/build/gamepad -- -j4 -l4
